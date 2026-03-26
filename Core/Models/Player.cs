@@ -37,5 +37,17 @@ namespace Lochy_i_Gorzala.Core.Models
 
             OnHealthChanged?.Invoke(HP);
         }
+
+        public void Heal(int amount)
+        {
+            HP = HP + amount;
+            
+            if (HP > MaxHP)
+            {
+                HP = MaxHP;
+            }
+
+            OnHealthChanged?.Invoke(HP);
+        }
     }
 }
