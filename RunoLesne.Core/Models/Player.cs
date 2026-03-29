@@ -14,6 +14,8 @@ namespace Lochy_i_Gorzala.Core.Models
         public int MaxHP { get; private set; }
         public int Defense { get; set; }
 
+        public int Luck { get; set; }
+
         // Event dla Bengaloo - to powiadomi UI w Godocie o zmianie zdrowia
         public event Action<int> OnHealthChanged;
 
@@ -22,6 +24,7 @@ namespace Lochy_i_Gorzala.Core.Models
             MaxHP = 100;
             HP = MaxHP;
             Defense = 5;
+            Luck = 10;
         }
 
         public void TakeDamage(int amount)
@@ -31,6 +34,18 @@ namespace Lochy_i_Gorzala.Core.Models
 
             HP -= actualDamage;
             if (HP < 0) HP = 0;
+
+            OnHealthChanged?.Invoke(HP);
+        }
+
+        public void Heal(int amount)
+        {
+            HP = HP + amount;
+            
+            if (HP > MaxHP)
+            {
+                HP = MaxHP;
+            }
 
             OnHealthChanged?.Invoke(HP);
         }
