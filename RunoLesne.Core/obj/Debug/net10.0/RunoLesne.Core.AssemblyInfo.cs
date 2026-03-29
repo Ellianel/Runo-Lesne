@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RunoLesne.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75944558b1b4dc9c176d29a9ece85291ea5f1d10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a83bbf97e1bdf13493619a9904372cb7ec49ac3")]
 [assembly: System.Reflection.AssemblyProductAttribute("RunoLesne.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RunoLesne.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
