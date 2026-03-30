@@ -51,3 +51,6 @@ Sprint 4 (Poziom 5.0): System zadań, rzadkość łupu i finalny boss „Kolekcj
 
 6. Podsumowanie i Oczekiwane Wyniki
 Realizacja projektu pozwoli na uzyskanie stabilnej aplikacji, w której logika gry jest w pełni testowalna jednostkowo (Unit Tests). Spodziewanym rezultatem jest gra o wysokiej grywalności, spełniająca wymogi techniczne specyfikacji MZ-PROJ-2026, dokumentująca proces tworzenia oprogramowania w zespole programistycznym.
+ 
+
+ test test 
